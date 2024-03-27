@@ -34,3 +34,4 @@ captures/
 # IDEA/Android Studio project folder
 .idea/
 *.iml
+/.vs

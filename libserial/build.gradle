@@ -18,10 +18,10 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 28
+        minSdkVersion 23
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.1"
     }
 
     buildTypes {
@@ -44,6 +44,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'org.testng:testng:7.3.0'
 }
 
 //apply from: '../gradle-maven-push.gradle'
